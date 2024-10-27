@@ -1,0 +1,72 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-size: 50px;
+}
+
+input {
+  display: flex;
+  height: 40px;
+  padding: 10px;
+  font-size: 20px;
+  border: 3px solid #ccc;
+  border-radius: 10px;
+}
+
+.agregar {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+.botones-icon {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding: 15px 10px;
+}
+
+.boton-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 30px;
+  padding: 5px 10px;
+  margin: 0 10px;
+}
+
+.boton-icon:hover {
+  cursor: pointer;
+  background-color: rgb(166, 167, 211);
+  border-radius: 25px;
+  color: white;
+}
+
+.circulo {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border: 10px solid #ccc;
+  border-radius: 50%;
+  margin: 50px auto;
+}
+
+.item {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  font-weight: bold;
+  border: 3px solid #ccc;
+}
